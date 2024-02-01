@@ -175,7 +175,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -191,7 +191,7 @@ Canvas:
   m_GameObject: {fileID: 65651681}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 2097808167}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -203,7 +203,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 30
   m_TargetDisplay: 0
 --- !u!224 &65651685
 RectTransform:
@@ -308,8 +308,8 @@ Transform:
   m_GameObject: {fileID: 94965850}
   serializedVersion: 2
   m_LocalRotation: {x: -0.13786353, y: -0.2754762, z: 0.039954606, w: 0.95053154}
-  m_LocalPosition: {x: -5.88, y: -0.29, z: 0}
-  m_LocalScale: {x: 0.5296, y: 0.5296, z: 0.5296}
+  m_LocalPosition: {x: -6.0384, y: 0.3593, z: 0}
+  m_LocalScale: {x: 0.47393906, y: 0.332377, z: 0.5296}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -432,7 +432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000061989, y: -0.0000019073}
+  m_AnchoredPosition: {x: 0, y: -18.699997}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322670592
@@ -582,7 +582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 39.07}
+  m_AnchoredPosition: {x: 0, y: 73.2}
   m_SizeDelta: {x: 261.577, y: 21.8603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377509214
@@ -1248,10 +1248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '0
-
-
-'
+  m_text: 50
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 973f1ed48da5d7d4da2ba7321ec93ed7, type: 2}
   m_sharedMaterial: {fileID: -3389729525491856024, guid: 973f1ed48da5d7d4da2ba7321ec93ed7, type: 2}
@@ -1433,7 +1430,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1515,8 +1512,8 @@ Transform:
   m_GameObject: {fileID: 1937304608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.93, y: -1.39, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: -8.2, y: -1.37, z: 0}
+  m_LocalScale: {x: -3.6337326, y: -0.78871727, z: 0.1891}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
